@@ -160,14 +160,17 @@ nav a {
     display: inline-block;
     width: 110px;
     text-align: center;
-}
-
-
-nav a {
     text-decoration: none;
     font-size: 15px;
     color: black;
 }
+
+
+.nav-box a:hover{
+    color: teal;
+    text-shadow: 2px 2px 5px rgb(82, 75, 75);
+}
+
 
 .top-content {
     border-bottom: 1px dashed black;
@@ -228,4 +231,8 @@ nav a {
 .box10 {
     background: dodgerblue;
     color: white;
+}
+
+body {
+    background-color: #fff1e9;
 }
