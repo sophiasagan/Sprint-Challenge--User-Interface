@@ -69,79 +69,11 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* background-color: whitesmoke; */
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes div{
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
+body {
+    background-color: teal;
 }
 
 .nav-box {
@@ -171,68 +103,57 @@ nav a {
     text-shadow: 2px 2px 5px rgb(82, 75, 75);
 }
 
-
-.top-content {
-    border-bottom: 1px dashed black;
+.about {
+    padding: 10px;
+    padding-bottom: 20px;  
 }
 
-.header-content {
+.about-middle{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    border: none;
 }
 
+.strategy, .working, .office, .meeting {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 20px 0px;
+}
 
-.box1 {
-    background: teal;
+.middle-content h1 {
+    margin-top: 10px;
+}
+
+.learn {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    width: 90px;
+    background: white;
+    margin: 15px 0px;
+}
+
+.about-bottom {
+    display: block;
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
     color: white;
-}
-
-.box2 {
-    background: gold;
-    color: white;
-}
-
-.box3 {
-    background: cadetblue;
-    color: white;
-}
-
-.box4 {
-    background: coral;
-    color: white;
-}
-
-.box5 {
-    background: crimson;
-    color: white;
-}
-
-.box6 {
-    background: forestgreen;
-    color: white;
-}
-
-.box7 {
-    background: darkorchid;
-    color: white;
-}
-
-.box8 {
-    background: hotpink;
-    color: white;
-}
-
-.box9 {
-    background: indigo;
-    color: white;
-}
-
-.box10 {
-    background: dodgerblue;
-    color: white;
-}
-
-body {
-    background-color: #fff1e9;
+    text-decoration: none;
 }
